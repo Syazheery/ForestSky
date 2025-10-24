@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "724443607725",
+    "project_id": "forecastsky-3010a",
+    "storage_bucket": "forecastsky-3010a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724443607725:android:ba6a68317434d5845f8c24",
+        "android_client_info": {
+          "package_name": "com.example.forecastskyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwjo4EqLJLQ7uGf2tJNSrptzDuoBmUFGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
