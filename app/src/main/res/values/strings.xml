@@ -1,3 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">forecastskyapp</string>
+    <string name="app_name">Weather Forecast</string>
+
+    <!-- Content Descriptions -->
+    <string name="location_icon">Location icon</string>
+    <string name="weather_icon">Weather icon</string>
+    <string name="detail_icon">Detail icon</string>
+
+    <!-- Labels -->
+    <string name="high_low">High / Low</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+    <string name="daily_forecast">7-Day Forecast</string>
+    <string name="weather_details">Weather Details</string>
+
+    <!-- Weather Details -->
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="visibility">Visibility</string>
+    <string name="pressure">Pressure</string>
 </resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingVertical="@dimen/spacing_md"
+    android:paddingHorizontal="@dimen/spacing_sm">
+
+    <TextView
+        android:id="@+id/tv_day_name"
+        style="@style/TextBody"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:fontFamily="sans-serif-medium" />
+
+    <ImageView
+        android:id="@+id/iv_day_icon"
+        android:layout_width="@dimen/icon_md"
+        android:layout_height="@dimen/icon_md"
+        android:src="@drawable/ic_cloud"
+        android:layout_marginStart="@dimen/spacing_md"
+        android:contentDescription="@string/weather_icon"
+        app:tint="@color/primary" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_day_low"
+        style="@style/TextMuted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="65°"
+        android:layout_marginEnd="@dimen/spacing_md" />
+
+    <!-- Temperature Bar -->
+    <View
+        android:id="@+id/tv_day_temp"
+        android:layout_width="80dp"
+        android:layout_height="6dp"
+        android:background="@drawable/temp_gradient"
+        android:layout_marginEnd="@dimen/spacing_md" />
+
+    <TextView
+        android:id="@+id/tv_day_high"
+        style="@style/TextBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="75°"
+        android:fontFamily="sans-serif-medium" />
+
+</LinearLayout>

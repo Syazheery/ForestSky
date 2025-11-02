@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/screen_padding_horizontal"
+        android:paddingVertical="@dimen/screen_padding_vertical">
+
+        <!-- Current Weather Section -->
+        <include layout="@layout/layout_current_weather" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xl" />
+
+        <!-- Hourly Forecast Section -->
+        <include layout="@layout/layout_hourly_forecast" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xl" />
+
+        <!-- Daily Forecast Section -->
+        <include layout="@layout/layout_daily_forecast" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xl" />
+
+        <!-- Weather Details Section -->
+        <include layout="@layout/layout_weather_details" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacing_xl" />
+
+        <Button
+            android:id="@+id/navToAccountButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Account"
+            android:layout_marginTop="16dp"/>\
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

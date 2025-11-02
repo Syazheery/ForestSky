@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Weather Card Style -->
+    <style name="WeatherCard">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="android:padding">@dimen/card_padding</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+
+    <!-- Text Styles -->
+    <style name="TextDisplay">
+        <item name="android:textSize">@dimen/text_display</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextHeading">
+        <item name="android:textSize">@dimen/text_xl</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextLarge">
+        <item name="android:textSize">@dimen/text_2xl</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextBody">
+        <item name="android:textSize">@dimen/text_base</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextMuted">
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:textColor">@color/text_muted</item>
+    </style>
+</resources>

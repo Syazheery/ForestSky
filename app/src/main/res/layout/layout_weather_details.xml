@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather Details"
+        android:layout_marginBottom="@dimen/spacing_md" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignBounds"
+        android:columnOrderPreserved="false">
+
+        <!-- Humidity Card -->
+        <include
+            android:id="@+id/card_humidity"
+            layout="@layout/item_weather_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_xs" />
+
+        <!-- Wind Card -->
+        <include
+            android:id="@+id/card_wind"
+            layout="@layout/item_weather_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_xs" />
+
+        <!-- Visibility Card -->
+        <include
+            android:id="@+id/card_visibility"
+            layout="@layout/item_weather_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_xs" />
+
+        <!-- Pressure Card -->
+        <include
+            android:id="@+id/card_pressure"
+            layout="@layout/item_weather_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/spacing_xs" />
+
+
+    </GridLayout>
+
+</LinearLayout>
