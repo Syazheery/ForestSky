@@ -52,12 +52,9 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-
-
-
     ): View? {
         // Inflate the fragment layout (use your existing activity_main.xml as the fragment layout)
-        val view = inflater.inflate(R.layout.activity_main, container, false)
+        val view = inflater.inflate(R.layout.fragment_home, container, false)
 
         // Initialize views
         tvLocation = view.findViewById(R.id.tv_location)
